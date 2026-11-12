@@ -12,7 +12,7 @@ app="$OT_ROOT/build/Overtime.app"
 rm -rf -- "$app"
 mkdir -p "$app/Contents/MacOS" "$app/Contents/Resources/overtime"
 
-xcrun swiftc -O -swift-version 5 -parse-as-library -target x86_64-apple-macos13.0 \
+xcrun swiftc -O -swift-version 5 -parse-as-library -target x86_64-apple-macos12.0 \
     "$OT_ROOT"/App/*.swift -o "$app/Contents/MacOS/Overtime"
 cp "$OT_ROOT/App/Info.plist" "$app/Contents/Info.plist"
 cp "$OT_ROOT/App/Overtime.icns" "$app/Contents/Resources/Overtime.icns"

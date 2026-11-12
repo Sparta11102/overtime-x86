@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Overtime</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.overtime-x86.setup</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Overtime</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleVersion</key>
+	<string>2.2</string>
+	<key>CFBundleIconFile</key>
+	<string>Overtime</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Overtime, release 2.2, by 0xfel1x</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Overtime by 0xfel1x</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Overtime looks in your Downloads folder for the Xcode you download from Apple.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

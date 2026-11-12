@@ -6,7 +6,7 @@
 
 <p align="center">
   <em>Extra time for Intel Macs.</em><br>
-  Build with the newest macOS SDK on an x64_x86 Mac, after the newest developer tools stopped running there.
+  Build with the newest macOS SDK on an Intel Mac, after the newest developer tools stopped running there.
 </p>
 
 <p align="center">
@@ -49,8 +49,7 @@ the Terminal.
 
 ### What you need
 
-- An **Intel Mac** (obviously) with the Xcode you use today. Tested on macOS Sequoia 15
-  with Xcode 26.3 and the SDK from Xcode 27.2.
+- An **Intel Mac** (Apple hardware) with the Xcode you use today.
 - A free Apple Account to download Xcode from Apple.
 - About 25 GB of free disk space during the setup (the unpacked newer Xcode is removed
   again) and about 6 GB afterwards for the Swift compiler.
@@ -141,6 +140,8 @@ Run the setup again after updating either Xcode.
   link to the SDK. That is expected.
 
 ## Credits
+
+Overtime is made by [0xfel1x](https://github.com/0xfel1x).
 
 The Swift compiler it installs comes from the [Swift open-source project](https://www.swift.org).
 
